@@ -1,0 +1,20 @@
+{
+  "name": "prescription-chat-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Express backend for the Prescription Prediction conversational demo (Phase 2)",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "node-fetch": "^3.3.2",
+    "nanoid": "^5.0.7"
+  }
+}
